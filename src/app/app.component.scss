@@ -212,14 +212,14 @@
   }
 
   code {
-    background-color: lighten($background-color, 10%);
+    background-color: $secondary-color;
     padding: 2px 4px;
     border-radius: 4px;
     color: $primary-color;
   }
 
   pre {
-    background-color: lighten($background-color, 10%);
+    background-color: $secondary-color;
     padding: 10px;
     border-radius: 4px;
     overflow-x: auto;

@@ -35,13 +35,11 @@ If you intend to use this repository as a learning tool in your company, feel fr
 The repository will be updated over time with the following topics:
 
 1. **Getting Started**
-
-   - Using `ng-cli`
-   - Project setup & structure
-   - Creating base components
+   - Using `ng-cli`, project setup & structure
+   - First code changes and pre-generated code cleanup
 
 2. **Core Angular Features**
-
+   - Creating base components
    - Templates & data binding
    - Basics of routing
    - Directives (`ngIf`, `ngFor`, custom directives)
@@ -55,8 +53,9 @@ The repository will be updated over time with the following topics:
    - Providing services in different scopes (root, component, module)
 
 ## 🚀 How to Use This Repository
-
 1. **Clone the repository**
+   Create fork of the github repository, where you will commit your changes. Then clone the repository fork.
+   
    ```sh
    git clone https://github.com/your-username/angular-playground.git
    cd angular-playground
