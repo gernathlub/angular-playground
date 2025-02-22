@@ -79,7 +79,3 @@ The repository will be updated over time with the following topics:
 ## 📜 License
 
 This project is licensed under the **MIT License** – feel free to use and contribute!
-
----
-
-This keeps it structured, clear, and beginner-friendly while also appealing to those who want to jump straight into advanced topics. Let me know if you'd like any refinements! 🚀
