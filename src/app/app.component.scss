@@ -1,64 +1,10 @@
 @use '../variables' as vars;
 
-.home {
-  padding-bottom: 35px;
-
-  h1 {
-    font-size: vars.$font-size-h1;
-    margin-bottom: 0.5em;
-    color: vars.$primary-color;
-  }
-
-  h2 {
-    font-size: vars.$font-size-h2;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-    color: vars.$primary-color;
-  }
-
-  h3 {
-    font-size: vars.$font-size-h3;
-    margin-top: 1.25em;
-    margin-bottom: 0.5em;
-    color: vars.$primary-color;
-  }
-
-  p {
-    font-size: vars.$font-size-p;
-    color: vars.$text-base-color;
-    line-height: 1.6;
-  }
-
-  ul, ol {
-    margin-left: 20px;
-    font-size: vars.$font-size-p;
-  }
-
-  li {
-    margin-bottom: 0.5em;
-  }
-
-  code {
-    background-color: vars.$secondary-color;
-    padding: 2px 4px;
-    border-radius: 4px;
-    color: vars.$primary-color;
-  }
-
-  pre {
-    background-color: vars.$secondary-color;
-    padding: 10px;
-    border-radius: 4px;
-    overflow-x: auto;
-    color: vars.$primary-color;
-  }
-
-  a {
-    color: vars.$primary-color;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+main {
+  width: 100%;
+  min-height: 100%;
+  padding: 2rem;
+  box-sizing: inherit;
+  position: relative;
+  margin-bottom: 70px;
 }
