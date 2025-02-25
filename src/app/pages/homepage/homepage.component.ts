@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './homepage.component.scss'
 })
 export class HomepageComponent {
+  imageUrl: string = 'assets/angular-logo.svg';
 
+  showAlert() {
+    alert('You clicked the button!');
+  }
 }
