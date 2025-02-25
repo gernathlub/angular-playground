@@ -14,38 +14,6 @@ body {
     left: 0;
 }
 
-header {
-    width: 100%;
-    padding: 10px 0px 10px 0px;
-    display: flex;
-    flex-direction: row;
-
-    h1 {
-        margin-left: 15px;
-        font-size: vars.$font-size-h1;
-    }
-    .logo {
-        position: relative;
-    }
-
-    .main-logo {
-        width: 70px;
-        height: 70px;
-        margin-left: 25px;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .angular-logo {
-        position: absolute;
-        width: 35px;
-        height: 35px;
-        bottom: 5px;
-        right: -3px;
-        rotate: -15deg;
-    }
-}
-
 main {
     width: 100%;
     min-height: 100%;
@@ -53,22 +21,4 @@ main {
     box-sizing: inherit;
     position: relative;
     margin-bottom: 70px;
-}
-
-footer {
-    width: 100%;
-    border-top: 1px solid vars.$secondary-color;
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-    position: absolute;
-    bottom: 0;
-
-    a {
-        color: vars.$primary-color;
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
 }
