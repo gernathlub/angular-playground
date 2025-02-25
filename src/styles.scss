@@ -1,8 +1,8 @@
-@import 'variables';
+@use 'variables' as vars;
 
 body {
-    background-color: $background-color;
-    color: $text-base-color;
+    background-color: vars.$background-color;
+    color: vars.$text-base-color;
     width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
@@ -22,7 +22,7 @@ header {
 
     h1 {
         margin-left: 15px;
-        font-size: $font-size-h1;
+        font-size: vars.$font-size-h1;
     }
     .logo {
         position: relative;
@@ -57,14 +57,14 @@ main {
 
 footer {
     width: 100%;
-    border-top: 1px solid $secondary-color;
+    border-top: 1px solid vars.$secondary-color;
     text-align: center;
     padding: 10px 0px 10px 0px;
     position: absolute;
     bottom: 0;
 
     a {
-        color: $primary-color;
+        color: vars.$primary-color;
         text-decoration: none;
     }
 
