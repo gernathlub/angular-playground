@@ -41,10 +41,12 @@ The repository will be updated over time with the following topics:
 2. **Core Angular Features**
    - Creating base components
    - Templates & data binding
-   - Basics of routing
-   - Directives (`ngIf`, `ngFor`, custom directives)
    - Component interaction & inputs/outputs
+   - Basics of routing
+   - Bacics of forms
+   - Basics of component lifecycle
    - Services & dependency injection
+   - Directives (`ngIf`, `ngFor`, custom directives)
 
 3. **Advanced Concepts** (TBD)
    - Routing & lazy loading
