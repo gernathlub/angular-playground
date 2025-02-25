@@ -1,0 +1,20 @@
+@use '../../../variables' as vars;
+
+button {
+    background-color: vars.$secondary-color;
+    color: vars.$primary-color;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: vars.$primary-color;
+        color: vars.$secondary-color;
+    }
+
+    &:active {
+        color: vars.$text-base-color;
+    }
+}
